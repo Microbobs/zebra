@@ -8,5 +8,34 @@
     <artifactId>zebra</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.jmonkeyengine</groupId>
+            <artifactId>jme3-core</artifactId>
+            <version>3.2.1-stable</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jmonkeyengine</groupId>
+            <artifactId>jme3-desktop</artifactId>
+            <version>3.2.1-stable</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jmonkeyengine</groupId>
+            <artifactId>jme3-lwjgl3</artifactId>
+            <version>3.2.1-stable</version>
+        </dependency>
+    </dependencies>
 
+    <repositories>
+        <repository>
+            <id>jCenter</id>
+            <name>Repo for JMonkey</name>
+            <url>https://jcenter.bintray.com</url>
+        </repository>
+        <repository>
+            <id>Maven Central</id>
+            <name>Repo for usual Artifacts</name>
+            <url>http://central.maven.org/maven2/</url>
+        </repository>
+    </repositories>
 </project>
